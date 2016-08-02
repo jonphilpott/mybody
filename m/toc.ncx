@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" 
+   "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+
+
+   <head>
+      <meta name="dtb:uid" content="http://www.keithgiles.com/thisismybody/epub" />
+      <meta name="dtb:depth" content="1"/>
+      <meta name="dtb:totalPageCount" content="0"/>
+      <meta name="dtb:maxPageNumber" content="0"/>
+   </head>
+
+   <docTitle>
+      <text>This Is My Body</text>
+   </docTitle>
+
+
+   <docAuthor>Keith A. Giles</docAuthor>
+
+    <navMap>
+
+      <navPoint class="cover" id="cover" playOrder="1">
+        <navLabel><text>Cover</text></navLabel>
+        <content src="cover.html" />
+      </navPoint>
+
+      <navPoint class="other" id="intro" playOrder="2">
+        <navLabel><text>Front Cover</text></navLabel>
+        <content src="intro.html" />
+      </navPoint>
+
+      <navPoint class="other" id="dedication" playOrder="3">
+        <navLabel><text>Dedication</text></navLabel>
+        <content src="dedication.html" />
+      </navPoint>
+
+      <navPoint class="other" id="toc" playOrder="4">
+        <navLabel><text>Contents</text></navLabel>
+        <content src="toc.html" />
+      </navPoint>
+
+      <navPoint class="other" id="foreward" playOrder="5">
+        <navLabel><text>Foreward by Jon Zens</text></navLabel>
+        <content src="foreward.html" />
+      </navPoint>
+
+      <navPoint class="other" id="introduction" playOrder="6">
+        <navLabel><text>Introduction</text></navLabel>
+        <content src="introduction.html" />
+      </navPoint>
+
+      <navPoint class="other" id="section1-intro" playOrder="7">
+        <navLabel><text>Section 1 God's Design for His Church</text></navLabel>
+        <content src="section1-intro.html" />
+      </navPoint>
+      <navPoint class="other" id="section2-intro" playOrder="8">
+        <navLabel><text>Section 2 Some Thoughts On New Testament Leadership</text></navLabel>
+        <content src="section2-intro.html" />
+      </navPoint>
+      <navPoint class="other" id="section3-intro" playOrder="9">
+        <navLabel><text>Section 3 Final Thoughts</text></navLabel>
+        <content src="section3-intro.html" />
+      </navPoint>
+
+      <navPoint class="other" id="theend" playOrder="10">
+        <navLabel><text>Resources</text></navLabel>
+        <content src="theend.html" />
+      </navPoint>
+
+      <navPoint class="other" id="footnotes" playOrder="11">
+        <navLabel><text>Footnotes</text></navLabel>
+        <content src="footnotes.html" />
+      </navPoint>
+
+    </navMap>
+</ncx>

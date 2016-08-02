@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="dcidid" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:dcterms="http://purl.org/dc/terms/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns:opf="http://www.idpf.org/2007/opf">
+    
+    
+    <dc:language xsi:type="dcterms:RFC3066">en</dc:language>
+    <dc:identifier id="dcidid" opf:scheme="URI">
+      http://www.keithgiles.com/thisismybody/epub
+    </dc:identifier>
+    <dc:subject>Non-fiction, church, jesus</dc:subject>
+    <dc:description>Ekklesia As God Intended</dc:description>
+    <dc:publisher>Keith A. Giles</dc:publisher>
+    <dc:title>This Is My Body</dc:title>
+    <dc:creator>Keith A. Giles</dc:creator>
+    <meta content="coverimg" name="cover"/>
+  </metadata>
+  <manifest>
+    <item href="cover.jpg" id="coverimg" media-type="image/jpeg"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />  
+    <item id="css" href="mybody.css" media-type="text/css" />  
+    <item id="cover" href="cover.html" media-type="application/xhtml+xml" />
+    <item id="intro" href="intro.html" media-type="application/xhtml+xml" />
+    <item id="intro2" href="intro2.html" media-type="application/xhtml+xml" />
+    <item id="dedication" href="dedication.html" media-type="application/xhtml+xml" />
+    <item id="toc" href="toc.html" media-type="application/xhtml+xml" />
+    <item id="foreward" href="foreward.html" media-type="application/xhtml+xml" />
+    <item id="introquote" href="introquote.html" media-type="application/xhtml+xml" />
+    <item id="introduction" href="introduction.html" media-type="application/xhtml+xml" />
+
+    <item id="section1-intro" href="section1-intro.html" media-type="application/xhtml+xml" />
+    
+    <item id="section-1-1"  href="section-1-1.html" media-type="application/xhtml+xml" />
+    <item id="section-1-2"  href="section-1-2.html" media-type="application/xhtml+xml" />
+    <item id="section-1-3"  href="section-1-3.html" media-type="application/xhtml+xml" />
+    <item id="section-1-4"  href="section-1-4.html" media-type="application/xhtml+xml" />
+    <item id="section-1-5"  href="section-1-5.html" media-type="application/xhtml+xml" />
+    <item id="section-1-6"  href="section-1-6.html" media-type="application/xhtml+xml" />
+    <item id="section-1-7"  href="section-1-7.html" media-type="application/xhtml+xml" />
+    <item id="section-1-8"  href="section-1-8.html" media-type="application/xhtml+xml" />
+    <item id="section-1-9"  href="section-1-9.html" media-type="application/xhtml+xml" />
+    <item id="section-1-10" href="section-1-10.html" media-type="application/xhtml+xml" />
+    <item id="section-1-11" href="section-1-11.html" media-type="application/xhtml+xml" />
+    <item id="section-1-12" href="section-1-12.html" media-type="application/xhtml+xml" />
+    <item id="section-1-13" href="section-1-13.html" media-type="application/xhtml+xml" />
+    <item id="section-1-14" href="section-1-14.html" media-type="application/xhtml+xml" />
+    <item id="section-1-15" href="section-1-15.html" media-type="application/xhtml+xml" />
+    <item id="section-1-16" href="section-1-16.html" media-type="application/xhtml+xml" />
+    <item id="section-1-17" href="section-1-17.html" media-type="application/xhtml+xml" />
+
+    <item id="section2-intro" href="section2-intro.html" media-type="application/xhtml+xml" />
+    <item id="section2-quote" href="section2-quote.html" media-type="application/xhtml+xml" />
+
+    <item id="section-2-1"  href="section-2-1.html" media-type="application/xhtml+xml" />
+    <item id="section-2-2"  href="section-2-2.html" media-type="application/xhtml+xml" />
+    <item id="section-2-3"  href="section-2-3.html" media-type="application/xhtml+xml" />
+
+    <item id="section3-intro" href="section3-intro.html" media-type="application/xhtml+xml" />
+    <item id="section-3-1"  href="section-3-1.html" media-type="application/xhtml+xml" />
+    <item id="section-3-2"  href="section-3-2.html" media-type="application/xhtml+xml" />
+    <item id="section-3-3"  href="section-3-3.html" media-type="application/xhtml+xml" />
+
+    <item id="theend" href="theend.html" media-type="application/xhtml+xml" />
+
+    <item id="footnotes" href="footnotes.html" media-type="application/xhtml+xml" />
+  </manifest>
+  <spine>
+    <itemref idref="cover" linear="no"/>
+    <itemref idref="intro" linear="yes"/>
+    <itemref idref="intro2" linear="yes"/>
+    <itemref idref="dedication" linear="yes" />
+    <itemref idref="toc" linear="yes" />
+    <itemref idref="foreward" linear="yes" />
+    <itemref idref="introquote" linear="yes" />
+    <itemref idref="introduction" linear="yes" />
+    <itemref idref="section1-intro" linear="yes" />
+    <itemref idref="section-1-1" linear="yes" />
+    <itemref idref="section-1-2" linear="yes" />
+    <itemref idref="section-1-3" linear="yes" />
+    <itemref idref="section-1-4" linear="yes" />
+    <itemref idref="section-1-5" linear="yes" />
+    <itemref idref="section-1-6" linear="yes" />
+    <itemref idref="section-1-7" linear="yes" />
+    <itemref idref="section-1-8" linear="yes" />
+    <itemref idref="section-1-9" linear="yes" />
+    <itemref idref="section-1-10" linear="yes" />
+    <itemref idref="section-1-11" linear="yes" />
+    <itemref idref="section-1-12" linear="yes" />
+    <itemref idref="section-1-13" linear="yes" />
+    <itemref idref="section-1-14" linear="yes" />
+    <itemref idref="section-1-15" linear="yes" />
+    <itemref idref="section-1-16" linear="yes" />
+    <itemref idref="section-1-17" linear="yes" />
+    <itemref idref="section2-intro" linear="yes" />
+    <itemref idref="section2-quote" linear="yes" />
+    <itemref idref="section-2-1" linear="yes" />
+    <itemref idref="section-2-2" linear="yes" />
+    <itemref idref="section-2-3" linear="yes" />
+    <itemref idref="section3-intro" linear="yes" />
+    <itemref idref="section-3-1" linear="yes" />
+    <itemref idref="section-3-2" linear="yes" />
+    <itemref idref="section-3-3" linear="yes" />
+    <itemref idref="theend" linear="yes" />
+    <itemref idref="footnotes" linear="yes" />
+  </spine>
+</package>
